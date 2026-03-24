@@ -1,0 +1,49 @@
+{
+  "name": "@ydmnypg/core",
+  "version": "0.4.1",
+  "description": "A lightweight, convention-based REST API framework built on Express.js",
+  "author": {
+    "email": "pgkang@studioys.kr",
+    "name": "eden.kang"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whalec-io/ydmnypg-core.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "dependencies": {
+    "@ydmnypg/data": "^0.4.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "debug": "^4.4.3",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "glob": "^13.0.6",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "lodash": "^4.17.23",
+    "mime-types": "^3.0.2",
+    "multer": "^2.1.1",
+    "mustache": "^4.2.0",
+    "node-schedule": "^2.1.1",
+    "object-path": "^0.11.8",
+    "request-ip": "^3.3.0",
+    "serve-favicon": "^2.5.1",
+    "xml2js": "^0.6.2"
+  },
+  "optionalDependencies": {
+    "compression": "^1.8.0",
+    "connect-timeout": "^1.9.0",
+    "express-rate-limit": "^7.5.0",
+    "express-useragent": "^2.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  }
+}
