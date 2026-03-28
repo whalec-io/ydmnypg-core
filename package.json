@@ -1,6 +1,6 @@
 {
   "name": "@ydmnypg/core",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "A lightweight, convention-based REST API framework built on Express.js",
   "author": {
     "email": "pgkang@studioys.kr",
@@ -17,7 +17,7 @@
     ".": "./index.js"
   },
   "dependencies": {
-    "@ydmnypg/data": "^0.4.1",
+    "@ydmnypg/data": "^0.4.2",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
     "debug": "^4.4.3",
